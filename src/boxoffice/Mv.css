@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&family=Single+Day&display=swap" );
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Jua', sans-serif;
+}
+.boxmain{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 200px;
+    height: 30px;
+    font-size:x-large
+}
+button:active, button :hover{
+    background-color: black;
+    color: white;
+    
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    
+}
+.officeList{
+    text-align: center;
+}
+.infoLi{
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    padding: 10px;
+    width: 100vw;
+}
+h1{
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    backdrop-filter: blur(30px);
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin;
+}
+/*차트*/
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  .chart{
+    text-align: center;
+    width: 500px;
+    margin : auto; 
+    display : block;
+  }
+  
+  .chTitle {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  } 
+  
+  .chTitle > span {
+    padding: 10px;
+  }
+  
+  .Rank {
+    width: 15%;
+  } 
+  .Nm {
+    width: 50%;
+  }
+  .Per {
+    width: 15%;
+  }
+  .Audi {
+    width: 20%;
+  }
+  
+  .mvContent {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid black;
+  
+  }
+  .mvContent:hover {
+    background-color: black;
+    color: white;
+  }
+  /*상세정보*/
+  .infoUl{
+    border-radius: 5px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .infoLi{
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    padding: 10px;
+    width: 100vw;
+  }
+  .infoSpan1, .infoSpan2{
+    display: inline-block;
+    justify-content: center; 
+  }
+  .infoSpan1 {
+    text-align: right;
+    font-weight: bold;
+    width: 50%;
+    font-size: 2.5vmin;
+    margin-right: 10px;
+  }
+  .infoSpan2{
+    text-align: left;
+    font-size: 2vmin;
+    margin-left: 10px;
+  }
