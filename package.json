@@ -20,9 +20,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
-
-  },"homepage": "https://ckswns879.github.io/project7_movie",
+  },
+  "homepage": "https://ckswns879.github.io/project7_movie",
   "eslintConfig": {
     "extends": [
       "react-app",
