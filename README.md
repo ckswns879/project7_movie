@@ -1,6 +1,6 @@
+• 실시간 영화 순위(10등 까지)를 보여주는 웹사이트 입니다.
+• 영화진흥위원회 제공 OpenAPI로 영화목록을 가져옵니다.
+• 날짜별로 영화 순위, 점유율, 관객 수를 알 수 있습니다.
+• 영화별로 상세 정보를 볼 수 있습니다.
+
 url주소     https://ckswns879.github.io/project7_movie/  
-
-
-
-
-firebase    https://project7-movie.web.app
